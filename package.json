@@ -16,6 +16,6 @@
     "express3-handlebars": "*"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "12.16.3"
   }
 }
