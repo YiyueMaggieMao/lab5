@@ -3,6 +3,13 @@
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
+	/* Test clicking on friends name */
+	$(".friend a").click(function(e){
+		e.preventDefault();
+		const friendName = $(this).text();
+		console.log(friendName);
+		$(this).text(anagrammedName(friendName));
+	})
 })
 
 /*
